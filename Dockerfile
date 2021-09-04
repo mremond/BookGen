@@ -4,7 +4,7 @@ FROM pandoc/latex:${base_tag}
 
 LABEL authors="Mickaël Rémond"
 
-RUN apk install git
+RUN apk --no-cache add git
 
 RUN mkdir -p /usr/local/share/texmf/tex/latex/ && \
   cd /usr/local/share/texmf/tex/latex/ && \
