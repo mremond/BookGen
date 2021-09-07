@@ -1,1 +1,1 @@
-FROM ghcr.io/mremond/BookGen:latest
+FROM ghcr.io/mremond/bookgen:latest
